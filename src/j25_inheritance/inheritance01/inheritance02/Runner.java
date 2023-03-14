@@ -3,7 +3,7 @@ package j25_inheritance.inheritance01.inheritance02;
 public class Runner {
     public static void main(String[] args) {
         // Data Type obj  = new    Cons
-        Kedicik k1 = new Kedicik();//Kedicik data taype obj
+        Kedicik k1 = new Kedicik();//Kedicik data taype obj creat edildi
         System.out.println("k1.a = " + k1.a);// 0->Hayvancık Class call
         System.out.println("k1.c = " + k1.c);// 2->Kedicik Class call
         System.out.println("k1.d = " + k1.d);// 7->Kedicik Class call
