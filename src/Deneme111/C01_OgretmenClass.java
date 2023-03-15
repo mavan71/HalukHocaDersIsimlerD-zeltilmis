@@ -32,4 +32,11 @@ public class C01_OgretmenClass {
     public C01_OgretmenClass(){
 
     }
+    public static void maasHesabı(){
+        System.out.println("Maas Hayırlı olsun");
+    }
+    public  void evlilikYıldonumu(){
+        System.out.println("Ağam eşinin kıymetini bil");
+    }
+
 }

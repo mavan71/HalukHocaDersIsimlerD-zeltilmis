@@ -9,7 +9,7 @@ public class C03_StaticKeyword {//class level
         ogrcSayisi++;//bu cons her call edildiğinde yani obj create edildiğinde
         // ogrcSayisi static variable kalıcı olarak 1 artırılır
 
-        ogrcId = 1;//bu cons her call edildiğinde yani obj create edildiğinde
+        ogrcId += ogrcSayisi;//bu cons her call edildiğinde yani obj create edildiğinde
         //ogrcID create edilen obj değeri olarak atanıs
     }
 
