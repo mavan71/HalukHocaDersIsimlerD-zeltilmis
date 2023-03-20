@@ -23,9 +23,9 @@ public class Task03 {
                 break;
             }
         }
-        if (!varMı) {//arana sayı listte olmayınca if body action alır
+       if (!varMı) {//arana sayı listte olmayınca if body action alır
             System.out.println("AGAm olsa dükkan senin aradıgın sayı yoğğğ :( ");
-        }
+       }
 
     }
 }

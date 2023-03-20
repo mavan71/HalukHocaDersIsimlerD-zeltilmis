@@ -6,7 +6,7 @@ public class C03_StaticKeyword {
     static int ogrcSayisi;
     public C03_StaticKeyword(){
         ogrcSayisi++;
-        ogrcId=1;
+        ogrcId+=ogrcSayisi;
     }
     public static void main(String[] args) {
         System.out.println("ogrcSayisi = " + ogrcSayisi);//0

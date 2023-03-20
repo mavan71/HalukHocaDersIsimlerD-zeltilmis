@@ -17,9 +17,9 @@ public class C02_StaticVariable {
 
 
     public static void main(String[] args) {
-      //  public
-
-
+        System.out.println("firmaId = " + firmaId);
+        System.out.println("firmaIsmi = " + firmaIsmi);
+        System.out.println("firmaIt = " + firmaIt);
 
 
     }//main sonu
