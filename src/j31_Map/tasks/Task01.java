@@ -1,6 +1,6 @@
 package j31_Map.tasks;
 
-import java.util.HashMap;g
+import java.util.HashMap;
 
 public class Task01 {
     public static void main(String[] args) {
