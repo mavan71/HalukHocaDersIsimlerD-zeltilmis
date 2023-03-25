@@ -54,9 +54,18 @@ public class arrayContains {
 
         //  bu satirdan onceki kodlari degistirmeyiniz
         // UseThisArray1 ve UseThisArray2 array isimlerini kullanınız.
+        boolean içeriyorMu=false;
 
+        for (int i = 0; i < UseThisArray1.length; i++) {
+            for (int j = 0; j < UseThisArray2.length; j++) {
+                if(UseThisArray1[i] == UseThisArray2[j]){
+                    içeriyorMu=true;
+                }
+            }
 
-
+            }
+        System.out.println( içeriyorMu);
+    }
 
     }
-}
+

@@ -67,5 +67,10 @@ public class C01_ScannerClass {
         // Task -> Kullanıcının girdiği değere göre kare alanı ve cevresini hesaplayan bir code create ediniz...
         // Task -> Kullanıcının girdiği değere göre kare alanı ve cevresini hesaplayan bir code create ediniz...
         // Task -> Kullanıcının girdiği değere göre sayının küpünün yarısını hesaplayan bir code create ediniz...
+        System.out.println("Bir sayi giriniz");
+        int sayi= sc.nextInt();
+        int Output=sayi*(sayi-1)*(sayi+1);
+        System.out.println("Output = " + Output);
+
     }
 }

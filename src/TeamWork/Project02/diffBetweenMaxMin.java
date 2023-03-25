@@ -1,5 +1,6 @@
 package TeamWork.Project02;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class diffBetweenMaxMin {
@@ -50,7 +51,10 @@ public class diffBetweenMaxMin {
     // Your code start here. Don't remove or change anything before this line. Your array is -> useThisArray in line 27
     //   kodu burdan baslatin ve bu satirdan onceki kodlari degistirmeyin Kullanacağınız array 27.ci satırda  --> useThisArray
 
-
+        Arrays.sort(useThisArray);
+        System.out.println(Arrays.toString(useThisArray));
+        int sayi =useThisArray[useThisArray.length-1]-useThisArray[0];
+        System.out.println(sayi);
     }
 
 }

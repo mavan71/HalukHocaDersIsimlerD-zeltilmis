@@ -17,6 +17,6 @@ public class _17_ComparisonOperators_equal_equal {
 
         // Kodu aşağıya yazınız.
 
-
+        System.out.println(num1==num2);
     }
 }

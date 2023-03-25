@@ -47,15 +47,15 @@ public class printEvenNumbers {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Ağam Bir Sayi giriniz");
         int maxNum = scanner.nextInt();
 
         //  code Start here don't change before this line
         // bu satırdan önceki kodları değiştirmeyiniz.
 
-        for (int i = 0; i < maxNum; i++) {
-            if (i%2==0){
-                System.out.print(i+" ");
+        for (int i = 0; i <=maxNum; i++) {
+            if(i%2==0) {
+                System.out.print(i);
             }
         }
     }

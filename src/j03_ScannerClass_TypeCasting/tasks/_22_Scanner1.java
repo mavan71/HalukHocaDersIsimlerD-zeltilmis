@@ -12,11 +12,10 @@ public class _22_Scanner1 {
 
         //Kodu aşağıya  yazınız.
 
-        Scanner scanner = new Scanner(System.in);
-        String ad;
-        System.out.print("İsminizi girin: ");
-        ad = scanner.nextLine();
-        System.out.println("İsminiz: " + ad);
+        //Kodu aşağıya  yazınız. public static void main(String[] args) {
+        //
+        //        Scanner input = new Scanner(System.in);
+        //        System.out.println("Lütfen bir metin giriniz : ");
 
 
     }

@@ -59,6 +59,17 @@ public class removeDuplicates {
 
         // kodu burdan baslatin ve bu satirdan onceki kodlari degistirmeyin
         //   useThisLine arrayini kullan
+            Arrays.sort(useThisArray);
+int sayac=1;
+
+        for (int i = 0; i < useThisArray.length-1; i++) {
+            if(useThisArray[i]==useThisArray[i+1]) {
+
+                continue;
+            }
+            sayac++;
+        }
+        System.out.println(Arrays.toString(useThisArray));
 
     }
 

@@ -34,7 +34,9 @@ public class reverseArr {
         // kodu burdan baslatin ve bu satirdan onceki kodlari degistirmeyin
 
 
-
+        for (int i = useThisArray.length-1; i >= 0; i--) {
+            System.out.print(useThisArray[i] + " ");
+        }
 
     }
 

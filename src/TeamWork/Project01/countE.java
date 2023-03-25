@@ -36,6 +36,13 @@ public class countE {
 
 
     //hint: .charAt, length(), for, index, counter,
+    //hint: .charAt, length(), for, index, counter,
+
+
+
+
+
+
 
 
     public static void main(String[] args) {

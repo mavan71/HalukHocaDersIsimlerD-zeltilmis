@@ -39,8 +39,13 @@ public class sameFirstAndLast {
         String[] useThisArray = myStr.split(" ");
 
         // kodu burdan baslatin ve bu satirdan onceki kodlari degistirmeyin
-
-
+        boolean esitMi=false;
+        if(useThisArray[0].equals(useThisArray[useThisArray.length-1]) ){
+            esitMi=true;
+            System.out.println(esitMi);
+        }else {
+            System.out.println(esitMi);
+        }
 
 
     }

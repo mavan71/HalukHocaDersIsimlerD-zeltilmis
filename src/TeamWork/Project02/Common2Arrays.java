@@ -1,5 +1,6 @@
 package TeamWork.Project02;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Common2Arrays {
@@ -50,8 +51,19 @@ public class Common2Arrays {
  */
         //  bu satirdan onceki kodlari degistirmeyiniz
         // array1 and array2  kullan
+        System.out.println(Arrays.toString(array1));
+        System.out.println(Arrays.toString(array2));
+
+        boolean sonuc=false;
+
+        if(array1[0]==array2[0]||array1[array1.length-1]==array2[array2.length-1]){
+            sonuc=true;
+            System.out.println(sonuc);
+        }else
+        System.out.println(sonuc);
 
 
-    }
+
+    }//class sonu
 
 }

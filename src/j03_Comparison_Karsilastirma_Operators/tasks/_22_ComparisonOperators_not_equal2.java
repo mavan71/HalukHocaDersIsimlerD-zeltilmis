@@ -11,7 +11,9 @@ public class _22_ComparisonOperators_not_equal2 {
           Cevabı yazdırın.  */
 
         //Kodu aşağıya yazınız.
-
+        String s1="Techno Study";
+        String s2="Techno Study";
+        System.out.println(!(s1==s2));
 
     }
 }

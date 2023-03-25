@@ -20,8 +20,7 @@ public class testClass {
 
     private ByteArrayInputStream testIn;
     private ByteArrayOutputStream testOut;
-
-    @Before
+  @Before
     public void setUpOutput() {
         testOut = new ByteArrayOutputStream();
         System.setOut(new PrintStream(testOut));

@@ -20,7 +20,22 @@ public class C02_StaticVariable {
         System.out.println("firmaId = " + firmaId);
         System.out.println("firmaIsmi = " + firmaIsmi);
         System.out.println("firmaIt = " + firmaIt);
-
+        firmaIt=true;
+        C02_StaticVariable.firmaId=2021;
+        staticMeth();
+       // non_staticMeth();//non static Meth doğrudan call edilemnez
 
     }//main sonu
+    public static void staticMeth(){
+        System.out.println("firmaId = " + firmaId);
+        firmaId=2023;
+        System.out.println("firmaId = " + firmaId);
+
+    }
+    public void non_staticMeth(){
+        System.out.println("firmaIsmi = " + firmaIsmi);
+        firmaIsmi="Offer'e en kısa yol";
+        System.out.println("firmaIsmi = " + firmaIsmi);
+        staticMeth();
+    }
 }//Class sonu

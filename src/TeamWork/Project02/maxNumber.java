@@ -1,5 +1,8 @@
 package TeamWork.Project02;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class maxNumber {
 
 
@@ -24,6 +27,18 @@ public class maxNumber {
 
     public static void main(String[] args) {
 
+        int enbuyukSayi = 0;
+
+        int[][] arr={{1,2,3}, {2,3,1} , {5,5,5} , {2,10,3}};
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if(arr[i][j]>enbuyukSayi){
+                    enbuyukSayi=arr[i][j];
+                }
+            }
+
+        }
+        System.out.println("enbuyukSayi = " + enbuyukSayi);
 
 
     }

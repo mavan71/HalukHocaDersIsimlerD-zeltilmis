@@ -46,14 +46,15 @@ public class C04_WrapperClass {
 
 
         Double sayi3 = 15.2;// Wrapper class obj data
-        // System.out.println(sayi3.shortValue());
+         System.out.println("sayi3.shortValue()"+sayi3.shortValue());
         // sayi3 wrapper Class olan Double class'ile create edildiği için
         // sayi3. ile Double class'a ait bir çok method kullanılabilir.
 
         short sayi1 = 20; // primitive data
         Short sayi4 = 30; // Wrapper  Short class obj. data
-
-
+            String s1=sayi4.toString();
+        System.out.println("s1 = " + s1+1);
+        System.out.println("(sayi4+1) = " + (sayi4 + 1));
         // TASK-> byte short int maximum ve minimum değerlerini print eden code yazınız
 
         byte maxByteDegeri = Byte.MAX_VALUE;
