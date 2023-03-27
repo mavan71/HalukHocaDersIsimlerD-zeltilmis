@@ -1,9 +1,6 @@
 package TeamWork.Project03;
 
-import java.util.Scanner;
-
 public class SubtractionSquare {
-
 
 
      /*
@@ -43,11 +40,23 @@ public class SubtractionSquare {
     return 3250
     */
     public static void main(String[] args) {
-        substSquare(8,3);
-        }
 
-    private static void substSquare(int i, int i1) {
+
+        System.out.println(substSquare(8, 3));
+
     }
 
+    private static double substSquare(int i,int j) {
+        int toplam1=0;
+        int toplam2=0;
+        for (int k = 1; k <=i; k++) {
+            toplam1+=k;
+        }
 
+        for (int k = 1; k <=j; k++) {
+            toplam2+=k;
+        }
+        return  (Math.pow(toplam1,2)+ Math.pow(toplam2,2));
+
+    }
 }

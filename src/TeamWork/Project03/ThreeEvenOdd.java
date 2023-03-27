@@ -1,10 +1,7 @@
 package TeamWork.Project03;
 
-import java.util.Scanner;
-
 public class ThreeEvenOdd {
-
-    /*
+     /*
 
     Given an int array as a parameter
     return true if the array contains either 3 even or 3 odd values .
@@ -33,6 +30,30 @@ public class ThreeEvenOdd {
     */
     public static void main(String[] args) {
 
+        int arr[]={2,4,3,5,8};
+
+
+        System.out.println(threeEvenOrOdd(arr));
+
+
+    }
+
+    private static boolean threeEvenOrOdd(int sayiArr[]) {
+        boolean sonuc = false;
+        int teksayac=0;
+        int ciftsayac=0;
+        for (int i = 0; i < sayiArr.length; i++) {
+            if(sayiArr[i]%2==0) {
+                ciftsayac++;
+            }else{
+                teksayac++;
+            }
+        }
+        if(teksayac==3 || ciftsayac==3){
+            sonuc = true;
+        }else sonuc = false;
+
+       return sonuc;
     }
 
 }

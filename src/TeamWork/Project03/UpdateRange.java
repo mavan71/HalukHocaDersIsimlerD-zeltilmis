@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class UpdateRange {
 
-
     /*
 
     Update a method uRange
@@ -45,10 +44,22 @@ public class UpdateRange {
 
     public static void main(String[] args) {
 
-
+        int array[]={1,6,12,15,22,18,30,16};
+        URange(array, 10, 20);
 
     }
 
+    private static void URange(int array[], int a, int b) {
+
+        for (int i = 0; i < array.length; i++) {
+            if (a<array[i]&& b>array[i]) {
+                array[i] = -1;
+            }
+        }
+
+        System.out.println(Arrays.toString(array));
+    }
 
 
 }
+
