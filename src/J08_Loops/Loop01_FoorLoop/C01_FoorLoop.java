@@ -9,7 +9,7 @@ public class C01_FoorLoop {
 
          */
         for(int i=1;i<=41;i++){
-            System.out.println(i+"maaşallah");
+            System.out.println(i+"maaşallahmaaşallah");
         }
 /*
 tas2 2 basamaklı tek sayıları aynı statıra print eden code creat ediniz
