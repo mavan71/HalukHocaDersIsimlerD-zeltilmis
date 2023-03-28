@@ -8,6 +8,7 @@ public class C01_AritmeticOperators {
         int b = 17;
         int c = 47;
 
+
         System.out.println(b+a*c);//628
         System.out.println(c-a/(b-c)+a*b);//268
 

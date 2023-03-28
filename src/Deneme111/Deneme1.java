@@ -11,7 +11,7 @@ public class Deneme1 {
     }
 
     private static void methodA(double i) {
-        System.out.println("Method A Çalıştı");
+        System.out.println("Method AB Çalıştı");
     }
     //girilen bir ifadede ki harf sayısını bulma
     public static void main(String[] args) {

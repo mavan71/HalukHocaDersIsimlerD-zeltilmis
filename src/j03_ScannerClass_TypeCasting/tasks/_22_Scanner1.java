@@ -14,8 +14,8 @@ public class _22_Scanner1 {
 
         //Kodu aşağıya  yazınız. public static void main(String[] args) {
         //
-        //        Scanner input = new Scanner(System.in);
-        //        System.out.println("Lütfen bir metin giriniz : ");
+                Scanner input = new Scanner(System.in);
+                System.out.println("Lütfen bir metin giriniz : ");
 
 
     }
