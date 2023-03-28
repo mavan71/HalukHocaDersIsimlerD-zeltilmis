@@ -5,6 +5,9 @@ public class Balık extends Hayvancık{// hayvancık parent class ının child c
 
     public Balık() {
 
+
+
+
     }
 
     public void ızgaraTava(){
