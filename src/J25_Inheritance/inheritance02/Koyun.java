@@ -1,4 +1,4 @@
-package J25_Inheritance.inheritance02;
+package j25_Inheritance.inheritance02;
 
 public class Koyun extends Memeliler{
 

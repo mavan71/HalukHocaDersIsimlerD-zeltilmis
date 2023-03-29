@@ -1,4 +1,4 @@
-package J25_Inheritance.inheritance01;
+package j25_Inheritance.inheritance01;
 
 public class Kedi extends Mammal{
 

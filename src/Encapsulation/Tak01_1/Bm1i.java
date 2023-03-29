@@ -1,6 +1,6 @@
-package Encapsulation.Tasks.Task01;
+package Encapsulation.Tak01_1;
 
-public class Bmi {
+public class Bm1i {//POJO
 
     //1-Fields
   private String name;
@@ -8,13 +8,25 @@ public class Bmi {
   private double weight;
   private double height;
 
+    //2 -cons.
 
-    public Bmi(String name, int age, double weight, double height) {
+
+    public Bm1i() {
+
+    }
+
+    public Bm1i(String name, int age, double weight, double height) {
         this.name = name;
         this.age = age;
         this.weight = weight;
         this.height = height;
     }
+
+    //method
+
+
+
+    // getter ve setter
 
     public String getName() {
         return name;
@@ -47,7 +59,10 @@ public class Bmi {
     public void setHeight(double height) {
         this.height = height;
     }
-    // to String
+
+
+    // to string
+
 
     @Override
     public String toString() {
@@ -55,24 +70,21 @@ public class Bmi {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", weight=" + weight +
-                ", height=" + height + getStatus1();
+                ", height=" + height+ "--> "+getStatus() ;
     }
-
-    public double getBMI1() {
-
-
-        return (weight/(height*height));
+    //2-cons.
+    public double getBMI() {
+        return weight/(height*height);
     }
-    public String getStatus1() {
-        if( getBMI1()<18.5){
-            return "zayıfsın";
-        }else if(getBMI1()<25){
+    public String getStatus() {
+        if(getBMI()<18.5){
+            return "zayifsın ";
+        }else if(getBMI()<25){
             return "normalsin";
-        }else if(getBMI1()<30){
-            return "klolusun";
-        }else return "aşırı kilolusun";
+        }else if(getBMI()<30){
+            return "kilolusun";
+        }else return "obezsin";
+
 
     }
-
-
-}//clas sonu
+}//class sonu

@@ -1,4 +1,4 @@
-package J25_Inheritance.inheritance04;
+package j25_Inheritance.inheritance04;
 
 public class SubClass extends SupperClass{
 

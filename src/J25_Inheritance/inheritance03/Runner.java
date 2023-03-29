@@ -1,4 +1,4 @@
-package J25_Inheritance.inheritance03;
+package j25_Inheritance.inheritance03;
 
 public class Runner {
     public static void main(String[] args) {

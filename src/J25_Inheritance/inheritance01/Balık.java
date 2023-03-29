@@ -1,6 +1,6 @@
-package J25_Inheritance.inheritance01;
+package j25_Inheritance.inheritance01;
 
-public class Balık extends Hayvancık{// hayvancık parent class ının child class ı
+public class Balık extends Hayvancık {// hayvancık parent class ının child class ı
 
 
     public Balık() {

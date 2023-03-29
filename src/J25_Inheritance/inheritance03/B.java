@@ -1,4 +1,4 @@
-package J25_Inheritance.inheritance03;
+package j25_Inheritance.inheritance03;
 
 public class B extends A {
 
