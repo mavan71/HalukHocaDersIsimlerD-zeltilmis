@@ -54,7 +54,6 @@ public class Islemler {
 
         }
 
-
     }
 
     private static void urunCikis() {
@@ -62,6 +61,7 @@ public class Islemler {
         int cıkısId = scan.nextInt();
         System.out.println("Çıkış yapılacak miktarı giriniz");
         int cıkısMiktarı = scan.nextInt();
+        Math.abs(cıkısMiktarı);
         if (depo.urunList.contains(depo.urunList.get(cıkısId - UrunTanımlama.IdAtailk))){
             depo.urunSat(cıkısId,cıkısMiktarı);
             System.out.println("Satış işlemi başarıyla yapılmıştır");
@@ -75,21 +75,25 @@ public class Islemler {
     }
 
     private static void urunGiris() {
-        System.out.println("Girmek istediğiniz ürünün İd no'sunu giriniz");
-        int secim = scan.nextInt();
-        System.out.println("Girilecek miktarı yazınız");
-        int girilecek = scan.nextInt();
-        if (depo.urunList.contains(depo.urunList.get(secim - UrunTanımlama.IdAtailk))){
-            depo.urunGirDepoya(secim,girilecek);
-            System.out.println();
-            girisEkranı();
-        }else {
-            System.out.println("agam olmayan id girdiniz . tekrar deneyin ");
-            urunGiris();
+                 System.out.println("Girmek istediğiniz ürünün İd no'sunu giriniz");
+                int secim = scan.nextInt();
+                System.out.println("Girilecek miktarı yazınız");
+                  int girilecek = scan.nextInt();
+            if (depo.urunList.contains(depo.urunList.get(secim - UrunTanımlama.IdAtailk))) {
+                depo.urunGirDepoya(secim, girilecek);
+                System.out.println();
+                girisEkranı();
+            } else {
+                System.out.println("agam olmayan id girdiniz . tekrar deneyin ");
+                urunGiris();
+            }
+
         }
 
 
-    }
+
+
+
 
     private static void urunListesi() {
         depo.urunList.
