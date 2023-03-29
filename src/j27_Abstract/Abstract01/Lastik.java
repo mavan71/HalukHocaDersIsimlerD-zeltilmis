@@ -1,4 +1,4 @@
-package j27_Abstract.abstract01;
+package j27_Abstract.Abstract01;
 
 public abstract class Lastik extends Honda {//abs parent ancak Honda abs. parente extends child Class
 //abs. class extends parent-child ilişkisinde abs. meth implement zorunluluğu yoktur

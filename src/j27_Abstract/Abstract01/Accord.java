@@ -1,4 +1,4 @@
-package j27_Abstract.abstract01;
+package j27_Abstract.Abstract01;
 
 public class Accord extends Honda {//concrete child Class -> Honda abs class'a extends
 

@@ -1,6 +1,6 @@
-package j27_Abstract.abstract01;
+package j27_Abstract.Abstract01;
 
-public class Civic extends Lastik{
+public class Civic extends j27_Abstract.Abstract01.Lastik {
     /*
  extends Honda yazılarak Honda Class'a concrete bir Civic class tanımlandı
  java CTE verdi
@@ -33,8 +33,7 @@ public class Civic extends Lastik{
     public void lastikEbat() {//impelemnted abs meth
         System.out.println("Agam 16' ilastik  ");
     }
-    // polymorphisim->obj'nin çok biçimliliği
- // Civic c1 = new Civic();//civic child class data type obj
+    // polymorphisim->obj'nin çok biçimliliği// Civic c1 = new Civic();//civic child class data type obj
  // Honda c2=new Civic();//honda abs parent class data type obj
 
 

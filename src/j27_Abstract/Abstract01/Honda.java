@@ -1,4 +1,4 @@
-package j27_Abstract.abstract01;
+package j27_Abstract.Abstract01;
 
 public abstract class Honda {//abs. parent Class
 
