@@ -28,12 +28,18 @@ public class Task06 {
         hm.put("Dog", 5);
 
         System.out.println("returnKey(hm) = " + returnKey(hm)); //  [Elephant, Cat, Lion, Dog, Tiger]
-
+        System.out.println("returnValues(hm) = " + returnValues(hm));
     }//main sonu
+
+    private static ArrayList<Integer> returnValues(HashMap<String, Integer> hm) {
+        return new ArrayList<>(hm.values());
+
+    }
 
     private static ArrayList<String> returnKey(HashMap<String, Integer> heşMep) {
 
         return new ArrayList<>(heşMep.keySet());
+
 
     }
 }

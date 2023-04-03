@@ -17,6 +17,10 @@ public class Task01 {
             toplam += i;
         }
         System.out.println("agam toplam : " + toplam);// 1583
+
+
+        System.out.println(10*20+"JavaCAN");
+        System.out.println("JavaCAN"+10*20);
     }
 
 

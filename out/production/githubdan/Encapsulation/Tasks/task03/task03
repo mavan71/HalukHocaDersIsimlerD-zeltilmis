@@ -17,4 +17,4 @@ Eğer employee 18 yaşından büyükse ,Welcome to our Company Fernando your sal
 Eğer employee 18 yaşından küçükse ,come back when you are 18 years old .
 Eğer employee 18 yaşındaysa, we can have inter with you after that you can have a come back when you are 18 years old .80000 salary.
 
-trick :ağa Calculator isminde bir method için şu anki tarih - doğum yılı=employee age
+trick :ageCalculator isminde bir method için şu anki tarih - doğum yılı=employee age

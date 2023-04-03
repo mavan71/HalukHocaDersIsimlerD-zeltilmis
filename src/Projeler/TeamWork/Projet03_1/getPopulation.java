@@ -57,8 +57,8 @@ public class getPopulation {
      */
     public static void main(String[] args) {
 
-        String country[]={"USA" ,"Mexico" ,"Canada","Türkiye","Almanya","Fransa"};
-        int countryPopulation[]={100000,120000,130000,40000,50000,70000};
+        String country[]={"Australia" ,"Bahamas" , "Benin" , "Côte d'Ivoire" , "Eritrea" , "New Zealand" , "Panama"};
+        int countryPopulation[]={38928346 , 36910560 ,  19237691 , 	11673021 , 586632 , 104425 , 33931};
         Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen bir ülke giriniz");
        String cName=scan.nextLine();
