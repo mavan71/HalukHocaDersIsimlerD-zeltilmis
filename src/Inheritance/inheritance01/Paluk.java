@@ -1,14 +1,12 @@
 package Inheritance.inheritance01;
 
-public class Paluk extends Hayvancik {//paluk child Hayvancik parent
-
-
+public class Paluk extends Hayvancik{
     public Paluk() {
-        System.out.println("Ağam Paluk p siz Cons. call edildi");
+        System.out.println("P' siz Cons. call edildi");
     }
 
-    public void ızgaraPaluk(){
-        System.out.println("Ağam Paluk seversin");
+    public void izgarTava(){
+        System.out.println("Izgara tava guzel olur");
     }
 
 

@@ -52,7 +52,7 @@ public class C01_LambdaExpression {
         printElfunctional(sayiList);//58 7 54 41 59 33 38 13 65 61 46 45 25 16
         System.out.println("\n   task03   ");
         printElfunctional1(sayiList);
-        System.out.println("\n   task04   ");
+        System.out.println("\n   task03   ");
         printElfunctional2(sayiList);
 
 
@@ -108,10 +108,10 @@ public class C01_LambdaExpression {
 
         sayiList.//aksiyona girecek list collection
                 stream().//coll dan gelen elemanlar akısa alındı
-                forEach(C01_LambdaExpression::yazdir);//akısdaki herbir elemanprint meth refere ediler yazdırlıldı.
+                forEach(C01_LambdaExpression::yazdirInt);//akısdaki herbir elemanprint meth refere ediler yazdırlıldı.
 
     }
-    public static void yazdir(int a){//normal Allah'ın  methodu-> int olan parametreyi yan yana boslukla print ediyor
+    public static void yazdirInt(int a){//normal Allah'ın  methodu-> int olan parametreyi yan yana boslukla print ediyor
         //seed ->tohum çekirdek method:refere edilecek meth.
 
         System.out.print(a+" ");
@@ -120,8 +120,10 @@ public class C01_LambdaExpression {
         //seed ->tohum çekirdek method:refere edilecek meth.
         return x%2==0;
     }
-    public static boolean tekMi(int x){//normal Allah'ın  methodu-> int olan parametreyi cift olmasını kontrol eder
+    public static void yazdirStrt(String  a){//normal Allah'ın  methodu-> int olan parametreyi yan yana boslukla print ediyor
         //seed ->tohum çekirdek method:refere edilecek meth.
-        return x%2!=0;
+
+        System.out.print(a+" ");
     }
+
 }

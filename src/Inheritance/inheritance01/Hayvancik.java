@@ -1,21 +1,20 @@
 package Inheritance.inheritance01;
 
-public class Hayvancik {
+public class Hayvancik {//Grand Parent class
 
 
-
-    public Hayvancik() {
-        System.out.println("Ağam Parametresiz Hayvancik cons tructor call edildi");
+    public Hayvancik() {//p'siz cons.
+        System.out.println("P'siz Hayvancik cons. çalıştı");
     }
     public void hareket(){
-        System.out.println("Hayvancik hareket eder");
+        System.out.println("HAYVANCIK hareket eder");
     }
-    public void beslen(){
-        System.out.println("Hayvancik fena beslenir");
+    public void beslenme(){
+        System.out.println("HAYVANCIK beslenir");
     }
 
-    public void icme(){
-        System.out.println("Hayvancik iyi içer ");
+    public void icer(){
+        System.out.println("HAYVANCIK fena içer");
     }
 
 }

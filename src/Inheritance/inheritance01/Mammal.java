@@ -1,17 +1,18 @@
 package Inheritance.inheritance01;
 
-public class Mammal extends Hayvancik{//mamal child Hayvancik parent
+public class Mammal extends Hayvancik{//Hayvancik Parent class, Mammal Child class
 
-    public Mammal() {
-        System.out.println("Ağam Parametresiz Mammal cons tructor call edildi");
+    public Mammal() {//p' siz cons
+        System.out.println("P'siz Mammal Cons. call edildi");
     }
-
     public void sutBeslen(){
-        System.out.println("Bebeleri süt ile besler");
+        System.out.println("Bebeleri sut ile besler");
     }
+
     public void dogum(){
-        System.out.println("Nur topu gibi yavrusu olur");
+        System.out.println("Nu topu gibi yavrusu olur");
     }
+
 
 
 }

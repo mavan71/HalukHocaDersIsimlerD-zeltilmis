@@ -27,7 +27,7 @@ public class C03_Map {
                 //.map(t->t*t)//16, 144, 4//çift elamanların karesi alındı//1.cözüm
                 //.map(t->(int)Math.pow(t,2))////2.cözüm
                 .map(C03_Map::kareAl)////3.cözüm
-                .forEach(C01_LambdaExpression::yazdir);//karesi alınan herbir elaman yazdırıldı
+                .forEach(C01_LambdaExpression::yazdirInt);//karesi alınan herbir elaman yazdırıldı
 //map()--> Stream içerisindeki elemanları başka tiplere dönüştürmek veya üzerlerinde işlem yapmak (update) için Map kullanılmaktadır.
 
     }
@@ -41,7 +41,7 @@ public static void printElTekKup1Fazla(List<Integer> sayiList){
             //.map(t->t*t)//16, 144, 4//çift elamanların karesi alındı//1.cözüm
             .map(t->(int)Math.pow(t,3)+1)////2.cözüm
 
-            .forEach(C01_LambdaExpression::yazdir);//karesi alınan herbir elaman yazdırıldı
+            .forEach(C01_LambdaExpression::yazdirInt);//karesi alınan herbir elaman yazdırıldı
 
 
 }
@@ -55,8 +55,8 @@ public static void printElCiftKarakokFuctional(List<Integer> sayiList){
             //.map(t->t*t)//16, 144, 4//çift elamanların karesi alındı//1.cözüm
             .map(t->(int)Math.sqrt(t))////2.cözüm
 
-            .forEach(C01_LambdaExpression::yazdir);//karesi alınan herbir elaman yazdırıldı
-    sayiList.stream().filter(t->t%2==0).map(t->(int)Math.sqrt(t)).forEach(C01_LambdaExpression::yazdir);//2.çözüm
+            .forEach(C01_LambdaExpression::yazdirInt);//karesi alınan herbir elaman yazdırıldı
+    sayiList.stream().filter(t->t%2==0).map(t->(int)Math.sqrt(t)).forEach(C01_LambdaExpression::yazdirInt);//2.çözüm
 }
 
 

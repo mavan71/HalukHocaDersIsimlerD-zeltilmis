@@ -39,7 +39,7 @@ public class C02_Filter {
                 .stream()//list elemanlrı akısa alındı
                 //.filter(t->t%2==0)//akısdaki list eamnalrı parametreye göre filtrelendi
                 .filter(C01_LambdaExpression::ciftMi)//akısdaki list eamnalrı parametreye göre filtrelendi
-                .forEach(C01_LambdaExpression::yazdir);//akısada her bir eleman  filtrelenerek yazdır meth refere edilere print edildi
+                .forEach(C01_LambdaExpression::yazdirInt);//akısada her bir eleman  filtrelenerek yazdır meth refere edilere print edildi
     }
     //task03-> "Functional Programming"--> CINCIX Programming kullanarak  listin 35'den kucuk çift elemanlarını aynı satırda aralarında bosluk ile print ediniz
 
@@ -49,7 +49,7 @@ public class C02_Filter {
                .filter(C01_LambdaExpression::ciftMi ) //akısdaki elemanların ciftlerini fitlreler -> 58 54 38 46 16
                 //.filter( t->t<35 && t%2==0)
                 .filter( t->t<35 ) // akısadaki elemanların 35 den kucuk molanlarını filtreler -> 16
-                .forEach(C01_LambdaExpression::yazdir); // 16
+                .forEach(C01_LambdaExpression::yazdirInt); // 16
 
 
     }
@@ -59,7 +59,7 @@ public class C02_Filter {
 
 
                 .filter( C02_Filter::seed ) // akısadaki elemanların 35 den kucuk molanlarını filtreler -> 16
-                .forEach(C01_LambdaExpression::yazdir); // 16
+                .forEach(C01_LambdaExpression::yazdirInt); // 16
 
 
     }
